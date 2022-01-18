@@ -1,6 +1,6 @@
 import pandas as pd
 
-def extract_titles(name):
+def extract_titles (name):
     return name.split()[0]
 
 if __name__ == "__main__":

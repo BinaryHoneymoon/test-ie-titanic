@@ -9,5 +9,8 @@ readme = "README.md"
 dynamic = ["version", "description"]
 dependencies = ["pandas",]
 
+[project.optional-dependencies]
+dev = ["black"]
+
 [project.urls]
 Home = "https://github.com/BinaryHoneymoon/BinaryHoneymoon"
