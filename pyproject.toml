@@ -7,6 +7,7 @@ name = "titanic_utils"
 authors = [{name = "Santiago Luis Rizo Verbel", email = "santi.rizo@hotmail.com"}]
 readme = "README.md"
 dynamic = ["version", "description"]
+dependencies = ["pandas",]
 
 [project.urls]
 Home = "https://github.com/BinaryHoneymoon/BinaryHoneymoon"
